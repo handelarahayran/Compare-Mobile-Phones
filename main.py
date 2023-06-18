@@ -24,7 +24,7 @@ lea_rate_augm = 0.000001    # Augmented set learning rate
 lea_rate_redu = 0.00001     # Reduced set learning rate
 
 # Import and prepare data set
-data = pd.read_csv('C:\luigiLite\Sxolh_lite\EARIN\Project\\train.csv')
+data = pd.read_csv('train.csv')
 original_names = data.columns.values.tolist()  # (original names are unrecognizably short)
 names = ['battery_power', 'blue_tooth', 'clock_speed', 'dual_sim', 'front_cam',
          'four_g', 'int_memory', 'mobile_depth', 'mobile_width', 'n_cores', 'primary_cam',
